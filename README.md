@@ -28,6 +28,13 @@ LICENSE       README.md     dist          src           tsconfig.json
  "inlineSourceMap": true,  
 ```
 
+## 编译自动watch
+
+```
+➜  typescript-dive-into git:(main) ✗ tsc --watch
+
+```
+
 # typescript 初始化
 ```
 typescript-dive-into git:(main) ✗ tsc --init
