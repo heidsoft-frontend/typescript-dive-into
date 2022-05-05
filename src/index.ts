@@ -124,5 +124,29 @@ type Beta ={
     name:string 
 }
 
-// 
+// 假设data1 是动态类型
 const beta = data1 as unknown as Beta
+
+// ------------ class ----------------
+
+// private 私有
+// public 公开
+// protected 受保护
+
+/**
+ *  直播类
+ */
+class Live {
+    roomName: string
+    private id: string
+    protected name: string 
+
+    constructor(roomName1:string,id1:string,name1:string) {
+        this.roomName = roomName1
+        this.id = id1
+        this.name = name1
+    }
+}
+
+const live = new Live('抖音','000001','云服务')
+console.log(live);
